@@ -58,7 +58,7 @@
 &kp LCTRL   &mo 1    &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &kp BACKSPACE  &kp RIGHT_GUI    &kp ENTER  &kp SPACE  &kp MINUS  &kp EQUAL    &mo 2
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
             display-name = "LAYER0";
         };
 
@@ -71,7 +71,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "LAYER1";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -84,6 +84,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
+            display-name = "LAYER2";
             sensor-bindings = <&scroll_encoder>;
         };
     };
